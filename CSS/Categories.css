@@ -1,0 +1,51 @@
+.container {
+	max-width: 100%;
+	height: auto;
+	padding: 0 15px;
+	margin:0 auto;
+}
+header{
+	height: 65px;
+	width: 100%;
+	background-color: grey;
+	position:;
+	top:0;
+	z-index:10;
+}
+.nav-logo{
+	float:left;
+}
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+.nav-menu{
+	float: right;
+	background-color: rgba(255, 255, 255, 0.1);
+	transition: all 0.5s;
+}
+.nav-menu:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.nav-menu ul li {
+	display:inline;
+	padding:20px 20px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.nav-menu a {
+  line-height: 5px;
+  color: white;
+  
+}
+body {
+	margin:0;
+	font-family:"Lucida Grande";
+	background-color:black;
+}
+p{
+	color:white;
+}
+img{
+	width:15%;	
+}

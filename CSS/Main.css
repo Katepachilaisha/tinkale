@@ -1,0 +1,222 @@
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+    .close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+body {
+	margin:0;
+	font-family:"Lucida Grande";
+	background-color:#A7E8A2;
+;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	max-width: 100%;
+	height: auto;
+	padding: 0 15px;
+	margin:0 auto;
+}
+header{
+	padding-bottom:100px;
+	height:600px;
+	background-image:url("../images/logo.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:800px 800px;
+
+  
+}
+@media only screen and (max-width: 640px) {
+	header{
+		background-size:300px 300px;
+		height:300px;
+	}
+}
+@media only screen and (max-width: 300px) {
+	header{
+		background-size:150px 150px;
+		height:150px;
+	}
+}
+
+.nav-menu{
+	float: right;
+	background-color: #ba1323;
+	border-radius: 25px;
+	transition: all 0.8s;
+}
+.nav-menu ul :hover{
+	background-color:rgba(0,165,90,255);
+	color: #2c050d;
+	border-radius: 25px;
+}
+.nav-menu ul li {
+	display:inline;
+	padding:20px 20px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.nav-menu a {
+  line-height: 5px;
+  color:rgba(0,165,90,255);
+  
+}
+.text-part{
+	
+	padding-right:100px;
+	background-color:transparent;
+	text-align:center;
+	color:grey;
+	font-weight:bold;
+}
+.text-part p {
+	padding-left:35% ;
+	padding-right:35.3%;
+	width:400px;
+}
+
+
+.bottom  p{
+	font-weight: bold;
+}
+.bottompart {
+	background-color:#ba1323;
+	text-align:center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-weight:bold;
+	color:#8d9093;
+           
+}
+
+.bottomtext p {
+	width: 50%;
+	text-align:center;
+	margin:8px;
+	margin-left:24%;
+	padding:20px 10px;
+	background-color:#04a45c;
+	
+}
+.contact-btn {
+	 margin: 20px 0;
+	 padding-bottom:20px;
+}
+.btn-contacts {
+  padding: 12px 80px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 25px;
+  font-weight:bold;
+  background-color:#04a45c;
+}
+
+.btn-contacts:hover {
+  opacity: 1;
+}
+.contacts {
+	background-color:#ADFF2F;
+}
+.partners h2{
+	margin:10px;
+	padding-top:100px;
+	color:#350008;
+	text-align:center;
+	font-weight:bold;
+	
+}
+.lastpart img{
+	width: 30.5%;
+	margin:5px;
+	position:static;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: .5s ease;
+
+}
+.lastpart img:hover{
+	
+  transform: scale(1.1);
+  margin:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.lastpart{
+	padding-left:100px;
+	
+}
+
+
+
+.email-btn {
+	 margin: 20px;
+	 padding-bottom:20px;
+	 padding-left:40%;
+
+}
+.btn {
+  padding: 12px 80px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 25px;
+  font-weight:bold;
+  color:red;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.email {
+	background-color:#00a55a;
+}
+.sm_icon{
+	width: 50px;
+}
+
+
