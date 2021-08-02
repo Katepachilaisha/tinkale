@@ -1,0 +1,77 @@
+.container {
+	max-width: 100%;
+	height: auto;
+	padding: 0 15px;
+	margin:0 auto;
+}
+header{
+	height: 65px;
+	width: 100%;
+	background-color:#A7E8A2;
+	position:;
+	top:0;
+	z-index:10;
+}
+.nav-menu{
+	float: right;
+	background-color: #a13b3b;
+	border-radius: 25px;
+	transition: all 0.8s;
+}
+.nav-menu ul :hover{
+	background-color:rgba(0,165,90,255);
+	color: #2c050d;
+	border-radius: 25px;
+}
+.nav-menu ul li {
+	display:inline;
+	padding:20px 20px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.nav-menu a {
+  line-height: 5px;
+  color:rgba(0,165,90,255);
+  
+}
+body {
+	margin:0;
+	font-family:"poppins";
+	background-color:#A7E8A2;
+}
+p{
+	color:black;
+}
+img{
+	width:30%;	
+}
+.sm_icon{
+	width: 50px;
+}
+/* Style inputs */
+  input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 100%;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
